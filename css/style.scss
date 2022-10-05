@@ -11,7 +11,7 @@ body {
     font-weight: bold;
     overflow: visible;
     margin: 0 0 0 -0.1em;
-    text-shadow:1px 0 0 rgb(37, 210, 202),0 2px 0 rgb(38, 240, 230),-2px 0 0 rgb(42, 192, 214),0 -1px 0 rgb(21, 205, 225);
+    text-shadow:1px 0 0 rgb(37, 210, 202),0 2px 0 rgb(38, 240, 230),-2px 0 0 rgb(0, 221, 255),0 -1px 0 rgb(21, 205, 225);
 }
 
 .title a {
@@ -76,7 +76,7 @@ p {
 }
 
 .table_list > li:nth-child(odd) {
-    background-color: #cecece;
+    background-color: #dafdff;
 }
 
 .table_list > li > ul,
