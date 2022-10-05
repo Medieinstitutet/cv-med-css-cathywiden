@@ -6,11 +6,12 @@ body {
 
 .title {
   font-size: 5.7em;
-  color: #8fbdb8;
+  color: whitesmoke;
   white-space: nowrap;
   font-weight: bold;
   overflow: visible;
   margin: 0 0 0 -0.1em;
+  text-shadow: 1px 0 0 rgb(37, 210, 202), 0 2px 0 rgb(38, 240, 230), -2px 0 0 rgb(42, 192, 214), 0 -1px 0 rgb(21, 205, 225);
 }
 
 .title a {
