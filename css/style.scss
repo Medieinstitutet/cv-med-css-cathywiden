@@ -39,6 +39,22 @@ p {
     margin: 0.3em 0;
 }
 
+/* hover effect on e-mail icon */
+
+.email-icon {
+    padding: 15px;
+    transition: transform 0.5s ease-in-out;
+    width: 50px;
+    height: 50px;
+    text-align: left;
+}
+
+.email-icon:hover {
+    color: rgb(20, 167, 162);
+    transform: scale(1.5) rotate(10deg); 
+}
+
+
 .table_list {
     margin: 0;
     padding: 0;
@@ -103,7 +119,6 @@ p {
         display: initial;
     }
 }
-
 
 
 .wrapper {
