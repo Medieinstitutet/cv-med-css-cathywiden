@@ -1,6 +1,6 @@
 [ ] add a photo med [alt]
 [ ] validate code --> reports
-[ ] use at least 1 Google or Adobe Font 
+[x] use at least 1 Google or Adobe Font 
 [ ] use at least 1 icon from FontAwesome
 [ ] use relative, absolute, fixed, sticky at least 2x
 [x] flex/grid
