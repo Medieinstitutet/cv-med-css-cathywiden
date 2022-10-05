@@ -17,6 +17,28 @@ body {
 .title a {
     text-decoration: none;
     color: #f0f6f7;
+    text-align: left;
+}
+
+.circular-image { 
+    border: 2px solid  rgb(30, 166, 187);
+    display: inline-block;    width: 180px; 
+    height: 180px; 
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+    
+.circular-image img { 
+    width: auto; 
+    height: 100%;
+    position: relative;
+    left: 5%; 
+    transform: scale(1.25);
+
 }
 
 .wrapper {
