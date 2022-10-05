@@ -1,0 +1,161 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: justify;
+	background-color: #eaeaea;
+}
+
+.title {
+    font-size: 5.7em;
+    color: #cecece;
+    white-space: nowrap;
+    font-weight: bold;
+
+    overflow: visible;
+
+    margin: 0 0 0 -0.1em;
+}
+
+.title a {
+    text-decoration: none;
+    color: #cecece;
+}
+
+.wrapper {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.313em 0 0 0;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+p {
+    margin: 0.313em 0;
+}
+
+a {
+    color: #2da2f1;
+}
+
+.footnote {
+    padding-left: 1em;
+    font-size: 0.750em;
+}
+
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.750em;
+    color: #CCC;
+    text-align: right;
+    overflow: visible;
+    vertical-align: text-bottom;
+    margin: 0.625em 0 0 0;
+}
+
+
+.table_list {
+    margin: 0;
+    padding: 0;
+}
+
+.table_list ul, .table_list ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.table_list > li {
+    display: grid;
+    grid-template-columns: 10em auto;
+    padding-left: 0.3em;
+}
+
+.table_list > li:last-child {
+    border-bottom: none;
+}
+
+.table_list > li:nth-child(odd) {
+    background-color: #d7d7d7;
+}
+
+.table_list > li > ul,
+.table_list > li > ol {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table_list > li > ul li,
+.table_list > li > ol li{
+    flex-basis: content;
+    min-width: 50%;
+    padding-bottom: .3em;
+}
+
+@media (max-width: 640px) { 
+    h3 {
+        padding-top: 1em;
+    }
+
+    .table_list {
+        text-align: left;
+    }
+
+    .table_list > li {
+        grid-template-columns: auto;
+    }
+
+    .table_list > li {
+        font-weight: bold;
+    }
+
+    .table_list > li *:last-child {
+        font-weight: initial;
+    }
+
+    .table_list > li > ul,
+    .table_list > li > ol {
+        display: initial;
+    }
+}
+
+
+
+.wrapper {
+    max-width: 18cm; /*21-1.5*2*/
+}
+
+.title {
+    font-size: 4.845em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+}
+
+.flavour {
+    margin-top: -.5em;
+    font-size: 1.1em;
+    color: #999999;
+}
+
+a {
+    color: inherit;
+}
+
+.nobreak {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    break-inside: avoid-page;
+}
+
+@media print {
+    a {
+        text-decoration: inherit;
+    }
+}
