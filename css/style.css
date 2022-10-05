@@ -1,0 +1,147 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  text-align: justify;
+  background-color: #f0f6f7;
+}
+
+.title {
+  font-size: 5.7em;
+  color: #8fbdb8;
+  white-space: nowrap;
+  font-weight: bold;
+  overflow: visible;
+  margin: 0 0 0 -0.1em;
+}
+
+.title a {
+  text-decoration: none;
+  color: #f0f6f7;
+}
+
+.wrapper {
+  max-width: 50em;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-size: medium;
+  font-weight: bold;
+  margin: 0.3em 0 0 0;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+p {
+  margin: 0.3em 0;
+}
+
+/* hover effect on e-mail icon */
+.email-icon {
+  padding: 0px;
+  transition: transform 0.5s ease-in-out;
+  width: 10px;
+  height: 10px;
+  text-align: left;
+}
+
+.email-icon:hover {
+  color: rgb(20, 167, 162);
+  transform: scale(1.5) rotate(15deg);
+}
+
+.table_list {
+  margin: 0;
+  padding: 0;
+}
+
+.table_list ul, .table_list ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.table_list > li {
+  display: grid;
+  grid-template-columns: 10em auto;
+  padding-left: 0.3em;
+}
+
+.table_list > li:last-child {
+  border-bottom: none;
+}
+
+.table_list > li:nth-child(odd) {
+  background-color: #cecece;
+}
+
+.table_list > li > ul,
+.table_list > li > ol {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table_list > li > ul li,
+.table_list > li > ol li {
+  flex-basis: content;
+  min-width: 50%;
+  padding-bottom: 0.3em;
+}
+
+@media (max-width: 640px) {
+  h3 {
+    padding-top: 1em;
+  }
+  .table_list {
+    text-align: left;
+  }
+  .table_list > li {
+    grid-template-columns: auto;
+  }
+  .table_list > li {
+    font-weight: bold;
+  }
+  .table_list > li *:last-child {
+    font-weight: initial;
+  }
+  .table_list > li > ul,
+.table_list > li > ol {
+    display: initial;
+  }
+}
+.wrapper {
+  max-width: 18cm;
+}
+
+.title {
+  font-size: 4.8em;
+  font-family: "DynaPuff";
+}
+
+h1, h2, h3 {
+  font-size: 1.2em;
+}
+
+.flavour {
+  margin-top: -0.5em;
+  font-size: 1.1em;
+  color: #052924;
+}
+
+a {
+  color: inherit;
+}
+
+.nobreak {
+  page-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+  break-inside: avoid-page;
+}
+
+@media print {
+  a {
+    text-decoration: inherit;
+  }
+}/*# sourceMappingURL=style.css.map */
