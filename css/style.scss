@@ -37,6 +37,12 @@ h1, h2, h3 {
     margin: 0.3em 0 0 0;
 }
 
+.cryptobg {
+    font-size: small;
+    font-style: italic;
+    opacity: 0.6;
+}
+
 /*Profile picture*/
 
 .circular-image { 
@@ -196,10 +202,12 @@ h3 {
 }
 }
 
-
 @media print {
     a {
         text-decoration: inherit;
+    }    
+    .cryptobg {
+        display: none;
     }
 /* Print the email address when CV is printed */
     .email-icon:after {
