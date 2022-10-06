@@ -5,19 +5,36 @@ body {
 }
 
 .title {
-    font-size: 4.5em;
+    font-size: 4.2em;
+    font-family: "DynaPuff";
     color: rgb(30, 144, 130);
     white-space: nowrap;
     font-weight: bold;
     overflow: visible;
     margin: 0 0 0 -0.1em;
-    text-shadow:1px 0 0 rgb(255, 255, 255),0 2px 0 rgb(255, 255, 255),-2px 0 0 rgb(255, 255, 255),0 -2px 0 rgb(255, 255, 255);
+    text-shadow:1px 0 0 white,0 2px 0 white,-2px 0 0 white,0 -2px 0 white;
 }
 
 .title a {
     text-decoration: none;
     color: #f0f6f7;
     text-align: left;
+}
+
+.flavour {
+    margin-top: -0.5em;
+    font-size: 1.1em;
+    color: #052924;
+}
+
+h1, h2, h3 {
+    font-size: 1.2em;
+}
+
+h1, h2, h3 {
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.3em 0 0 0;
 }
 
 /*Profile picture*/
@@ -60,6 +77,7 @@ body {
 }
 
 /*Green glow on hover over all links*/
+
 a {
     -moz-transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
@@ -75,25 +93,20 @@ a:hover {
     -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
-    
 
 .wrapper {
-    max-width: 50em;
+    max-width: 18cm;     
     margin: 0 auto;
 }
 
-h1, h2, h3 {
-    font-size: medium;
-    font-weight: bold;
-    margin: 0.3em 0 0 0;
-}
+a {
+    color: inherit;
+} 
 
-h1 {
-    font-size: 200%;
-}
-
-p {
-    margin: 0.3em 0;
+.nobreak {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    break-inside: avoid-page;
 }
 
 .table_list {
@@ -135,7 +148,8 @@ p {
     padding-bottom: 0.3em;
 }
 
-/*No underline on links*/
+/* No underline on links */
+
 a:link {
     text-decoration: none;
 }
@@ -143,7 +157,8 @@ a:link {
 
 @media (max-width: 640px) { 
 
-/*No glow on links in mobile mode*/
+/* No glow on links in mobile mode */
+
 a:hover {
 text-shadow: none;
 color: black;
@@ -180,41 +195,12 @@ h3 {
 }
 }
 
-.wrapper {
-    max-width: 18cm; 
-}
 
-.title {
-    font-size: 4.8em;
-    font-family: "DynaPuff";
-}
-
-h1, h2, h3 {
-    font-size: 1.2em;
-}
-
-.flavour {
-    margin-top: -0.5em;
-    font-size: 1.1em;
-    color: #052924;
-}
-
-a {
-    color: inherit;
-}
-
-.nobreak {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    break-inside: avoid-page;
-}
-
-/*Print view- as flat as possible*/
 @media print {
     a {
         text-decoration: inherit;
     }
-/*Print the email address when CV is printed*/
+/* Print the email address when CV is printed */
     .email-icon:after {
     content: "katalinwiden@gmail.com";
     }
