@@ -24,7 +24,7 @@ body {
 .flavour {
   margin-top: -0.5em;
   font-size: 1.1em;
-  color: #052924;
+  color: #0e6870;
 }
 
 h1, h2, h3 {
@@ -50,7 +50,7 @@ h1, h2, h3 {
   overflow: hidden;
   border-radius: 50%;
   /* Glow around image border */
-  box-shadow: 0px 0px 10px rgba(63, 210, 220, 0.5);
+  box-shadow: 0px 0px 15px rgba(63, 210, 220, 0.2);
 }
 
 .circular-image img {
@@ -125,7 +125,7 @@ a {
 }
 
 .table_list > li:nth-child(odd) {
-  background-color: #d6f1ee;
+  background-image: url(../img/cryptobg.jpg);
 }
 
 .table_list > li > ul,
