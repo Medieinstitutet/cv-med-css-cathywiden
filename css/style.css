@@ -5,13 +5,13 @@ body {
 }
 
 .title {
-  font-size: 5.7em;
-  color: whitesmoke;
+  font-size: 4.5em;
+  color: rgb(30, 144, 130);
   white-space: nowrap;
   font-weight: bold;
   overflow: visible;
   margin: 0 0 0 -0.1em;
-  text-shadow: 1px 0 0 rgb(22, 166, 168), 0 2px 0 rgb(36, 173, 167), -2px 0 0 rgb(30, 166, 187), 0 -2px 0 rgb(51, 181, 173);
+  text-shadow: 1px 0 0 rgb(9, 69, 76), 0 2px 0 rgb(9, 69, 76), -2px 0 0 rgb(9, 69, 76), 0 -2px 0 rgb(9, 69, 76);
 }
 
 .title a {
@@ -22,7 +22,7 @@ body {
 
 /*Profile picture*/
 .circular-image {
-  border: 2px solid rgb(30, 166, 187);
+  border: 2px solid rgb(16, 144, 140);
   display: inline-block;
   width: 180px;
   height: 180px;
