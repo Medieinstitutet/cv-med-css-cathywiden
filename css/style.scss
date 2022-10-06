@@ -40,8 +40,9 @@ h1, h2, h3 {
 /*Profile picture*/
 
 .circular-image { 
-    border: 2px solid  rgb(16, 144, 140);
-    display: inline-block;    width: 180px; 
+    border: 1px solid  white;
+    display: inline-block;    
+    width: 180px; 
     height: 180px; 
     position: relative;
     top: 20%;
@@ -50,7 +51,7 @@ h1, h2, h3 {
     overflow: hidden; 
     border-radius: 50%; 
     /* Glow around image border */
-    box-shadow: 0px 0px 10px rgba(63, 210, 220, 0.3); 
+    box-shadow: 0px 0px 10px rgba(63, 210, 220, 0.5); 
 } 
 
 .circular-image img { 
