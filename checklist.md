@@ -1,4 +1,4 @@
-[x] add a photo with [alt]
+[x] add a photo with [alt] -- should work without csss well
 [ ] validate code --> reports
 [x] use at least 1 Google or Adobe Font 
 [x] use at least 1 icon from FontAwesome

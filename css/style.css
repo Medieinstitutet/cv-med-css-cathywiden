@@ -192,8 +192,13 @@ a {
   break-inside: avoid-page;
 }
 
+/*Print view- as flat as possible*/
 @media print {
   a {
     text-decoration: inherit;
+  }
+  /*Print the email address when CV is printed*/
+  .email-icon:after {
+    content: "katalinwiden@gmail.com";
   }
 }/*# sourceMappingURL=style.css.map */
