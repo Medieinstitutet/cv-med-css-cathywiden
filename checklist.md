@@ -4,4 +4,4 @@
 [x] use relative, absolute, fixed, sticky at least 2x
 [x] flex/grid
 [x] site should work without css
-[ ] publish on GitHub Pages or similar platform
+[x] publish on GitHub Pages or similar platform
